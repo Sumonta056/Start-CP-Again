@@ -33,7 +33,28 @@ const int N = 3e5, M = N;
 
 void solve()
 {
-    cout << "TESTING" << endl;
+    ll n;
+    cin >> n;
+    ll ans0 = 0;
+    ll ans1 = 0;
+    string s, f;
+    cin >> s;
+    cin >> f;
+
+    int i;
+    for (i = 0; i < n; i++)
+    {
+        if (s[i] == f[i])
+            continue;
+        else
+        {
+            if (s[i] == '0')
+                ans0 += 1;
+            if (s[i] == '1')
+                ans1 += 1;
+        }
+    }
+    cout << max(ans0, ans1) << endl;
 }
 
 int main()
