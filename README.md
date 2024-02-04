@@ -1,13 +1,39 @@
-Setup
+<div align = "center">
 
-https://youtu.be/ehVuc1Rfifc?si=8kg5WD7M2R_i4X_x
+_------ **🧠 Competitive Programming Journey 🧠** ------_
 
-https://youtu.be/nVWvsvG1oCs?si=w7_1W67zpWYQqln2
+# 🌲 Problem Set
 
-https://youtu.be/h3uDCJ5mvgw?si=_I-OvxeiWErbD3h9
+| **Rating** |     **Topic Covered**      | **Platform** | **Problem**                                                                           |
+| :--------: | :------------------------: | :----------: | ------------------------------------------------------------------------------------- |
+|    800     |        Greedy, Math        |  Codeforces  | **( [👉 1921-A : Square](https://codeforces.com/contest/1921/problem/A) )**           |
+|    800     |   String, Implementation   |  Codeforces  | **( [👉 1921-B : Arranging Cats](https://codeforces.com/contest/1921/problem/B) )**   |
+|    800     |   String, Implementation   |  Codeforces  | **( [👉 1922-A : Tricky Template](https://codeforces.com/contest/1922/problem/A) )**  |
+|    900     |        Greedy, Math        |  Codeforces  | **( [👉 1921-C : Sending Messages](https://codeforces.com/contest/1921/problem/C) )** |
+|    1200    | Math,Sorting,Combinatorics |  Codeforces  | **( [👉 1922-B : Forming Triangles](https://codeforces.com/contest/1922/problem/B) )** |
 
-https://youtu.be/Y-_3rXgrRAY?si=FKEuelSk4ehbg6wV
+</div>
 
-https://github.com/rachitiitr/CodeforcesContestBot/blob/master/template.cpp
+<div align = "center">
 
+<hr>
 
+_------ **🧠 VS Code Setup For Competitive Programming 🧠** ------_
+
+# 🌲 Useful Resources
+
+#### ✍️ Competitive Programming Setup (Algorithms Conquered) : **([👉Click Here](https://www.youtube.com/watch?v=ehVuc1Rfifc))**
+
+#### ✍️ Top Chrome Extensions for Best Experience on Codeforces : **([👉Click Here](https://www.youtube.com/watch?v=nVWvsvG1oCs))**
+
+#### ✍️ How to setup VS code for DSA and CP | Input / Output Split Format : **([👉Click Here](https://youtu.be/h3uDCJ5mvgw?si=8zKc42-UvJqdT90u))**
+
+#### ✍️ My VS Code Setup for Competitive Programming (Rachit Jain) : **([👉Click Here](https://youtu.be/Y-_3rXgrRAY?si=FKEuelSk4ehbg6wV))**
+
+<hr>
+
+_------ **🎥 Important and Helpful Git-Repository 🎥** ------_
+
+##### ✍️ Rachit Jain Template : **([👉Click Here](https://github.com/rachitiitr/CodeforcesContestBot/blob/master/template.cpp))**
+
+</div>
