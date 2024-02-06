@@ -4,15 +4,16 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 
 # 🌲 Problem Set
 
-| **Rating** |      **Topic Covered**       | **Platform** | **Problem**                                                                                     |
-| :--------: | :--------------------------: | :----------: | ----------------------------------------------------------------------------------------------- |
-|    800     |         Greedy, Math         |  Codeforces  | **( [👉 1921-A : Square](https://codeforces.com/contest/1921/problem/A) )**                     |
-|    800     |    String, Implementation    |  Codeforces  | **( [👉 1921-B : Arranging Cats](https://codeforces.com/contest/1921/problem/B) )**             |
-|    800     |        String, Greedy        |  Codeforces  | **( [👉 1925-A : We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) )** |
-|    800     |    String, Implementation    |  Codeforces  | **( [👉 1922-A : Tricky Template](https://codeforces.com/contest/1922/problem/A) )**            |
-|    900     |         Greedy, Math         |  Codeforces  | **( [👉 1921-C : Sending Messages](https://codeforces.com/contest/1921/problem/C) )**           |
-|    1200    |  Math,Sorting,Combinatorics  |  Codeforces  | **( [👉 1922-B : Forming Triangles](https://codeforces.com/contest/1922/problem/B) )**          |
-|    1300    | Greedy, Math, Implementation |  Codeforces  | **( [👉 1922-C : Closest Citites](https://codeforces.com/contest/1922/problem/C) )**            |
+| **Rating** |        **Topic Covered**         | **Platform** |                                           **Problem**                                           |
+| :--------: | :------------------------------: | :----------: | :---------------------------------------------------------------------------------------------: |
+|    800     |           Greedy, Math           |  Codeforces  |           **( [👉 1921-A : Square](https://codeforces.com/contest/1921/problem/A) )**           |
+|    800     |      String, Implementation      |  Codeforces  |       **( [👉 1921-B : Arranging Cats](https://codeforces.com/contest/1921/problem/B) )**       |
+|    800     |          String, Greedy          |  Codeforces  | **( [👉 1925-A : We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) )** |
+|    800     |      String, Implementation      |  Codeforces  |      **( [👉 1922-A : Tricky Template](https://codeforces.com/contest/1922/problem/A) )**       |
+|    900     |           Greedy, Math           |  Codeforces  |      **( [👉 1921-C : Sending Messages](https://codeforces.com/contest/1921/problem/C) )**      |
+|    1200    |    Math,Sorting,Combinatorics    |  Codeforces  |     **( [👉 1922-B : Forming Triangles](https://codeforces.com/contest/1922/problem/B) )**      |
+|    1200    | Number Theory, Bruteforce,Greedy |  Codeforces  |   **( [👉 1925-B : A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) )**   |
+|    1300    |   Greedy, Math, Implementation   |  Codeforces  |      **( [👉 1922-C : Closest Citites](https://codeforces.com/contest/1922/problem/C) )**       |
 
 </div>
 
