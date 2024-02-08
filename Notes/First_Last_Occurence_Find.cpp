@@ -48,15 +48,31 @@ const int N = int(1e5 + 3);
 
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
-  
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+
+    ll n;
+    cin >> n;
+    string s;
+    cin >> s;
+    char target = 'B';
+
+    // Find first occurrence
+    auto first = find(s.begin(), s.end(), target);
+    int firstIndex = (first != s.end()) ? distance(s.begin(), first) : -1;
+
+    // Find last occurrence
+    int lastIndex = s.find_last_of(target);
+
+    cout << firstIndex << " " << lastIndex << endl;
+
+    // If no found occurrence -1 -1
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)

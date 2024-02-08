@@ -48,15 +48,40 @@ const int N = int(1e5 + 3);
 
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
-  
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+
+    ll n;
+    cin >> n;
+    string s;
+    cin >> s;
+
+    bool found = false;
+    ll first = 0, last = 0;
+    ll count = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        if (s[i] == 'B')
+        {
+            count++;
+            if (found)
+                last = i;
+            else
+                first = i, found = true;
+        }
+    }
+    // cout << first << sp << last << endl;
+
+    if (count == 1)
+        last = first;
+    cout << (last - first) + 1 << endl;
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)

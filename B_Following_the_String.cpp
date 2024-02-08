@@ -48,15 +48,40 @@ const int N = int(1e5 + 3);
 
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
-  
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+    ll n;
+    cin >> n;
+
+    vector<ll> input(n);
+    vector<char> s(n, 'a');
+    vector<char> ans;
+
+    for (ll i = 0; i < n; i++)
+    {
+        cin >> input[i];
+    }
+
+    for (ll i = 0; i < n; i++)
+    {
+        ll temp = input[i];
+
+        ans.push_back(s[temp]);
+        s[temp] = s[temp] + 1;
+        // cout << ans << sp << update << endl;
+    }
+
+    for (ll i = 0; i < n; i++)
+    {
+        cout << ans[i];
+    }
+    cout << endl;
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)
