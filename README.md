@@ -2,7 +2,7 @@
 
 _------ **🧠 Competitive Programming Journey 🧠** ------_
 
-# 🌲 Problem Set
+# 🌲 Problem Set (Codeforce)
 
 | **Rating** |        **Topic Covered**         | **Platform** |                                           **Problem**                                           |
 | :--------: | :------------------------------: | :----------: | :---------------------------------------------------------------------------------------------: |
@@ -16,6 +16,14 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 |    1300    |   Greedy, Math, Implementation   |  Codeforces  |      **( [👉 1922-C : Closest Citites](https://codeforces.com/contest/1922/problem/C) )**       |
 |     ?      |          Greedy,String           |  Codeforces  |       **( [👉 1927-A : Make it White](https://codeforces.com/contest/1927/problem/A) )**        |
 |     ?      |  Constructive Algorithm, String  |  Codeforces  |    **( [👉 1927-B : Following the String](https://codeforces.com/contest/1927/problem/B) )**    |
+
+<hr>
+
+# 🌲 Problem Set (LeetCode)
+
+| **Rating** |   **Topic Covered**   | **Platform** |                                                                   **Problem**                                                                   |
+| :--------: | :-------------------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+|    Easy    | Two Pointers , Sort() |   LeetCode   | **( [👉88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) )** |
 
 </div>
 
