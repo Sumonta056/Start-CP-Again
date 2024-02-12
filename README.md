@@ -24,6 +24,8 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 | **Rating** |   **Topic Covered**   | **Platform** |                                                                   **Problem**                                                                   |
 | :--------: | :-------------------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
 |    Easy    | Two Pointers , Sort() |   LeetCode   | **( [👉88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) )** |
+|    Easy    | Two Pointers , Array |   LeetCode   | **( [👉26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) )** |
+|    Easy    | Two Pointers , Array |   LeetCode   | **( [👉27. Remove Element](https://leetcode.com/problems/remove-element/description/?envType=study-plan-v2&envId=top-interview-150) )** |
 
 </div>
 
@@ -44,6 +46,8 @@ _------ **🧠 VS Code Setup For Competitive Programming 🧠** ------_
 #### ✍️ My VS Code Setup for Competitive Programming (Rachit Jain) : **([👉Click Here](https://youtu.be/Y-_3rXgrRAY?si=FKEuelSk4ehbg6wV))**
 
 #### ✍️ Top 8 Chrome Extensions for Programming : **([👉Click Here](https://youtu.be/t-d9CwPV--A?si=gZJQnBaVlwdI6otx))**
+
+#### ✍️ How to Setup LeetCode in VSCode : **([👉Click Here](https://youtu.be/GpaXnPHuJUo?si=3N0N2nemQpsin9p4))**
 
 <hr>
 
