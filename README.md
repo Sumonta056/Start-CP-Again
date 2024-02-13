@@ -14,6 +14,7 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 |    1200    |    Math,Sorting,Combinatorics    |  Codeforces  |     **( [👉 1922-B : Forming Triangles](https://codeforces.com/contest/1922/problem/B) )**      |
 |    1200    | Number Theory, Bruteforce,Greedy |  Codeforces  |   **( [👉 1925-B : A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) )**   |
 |    1300    |   Greedy, Math, Implementation   |  Codeforces  |      **( [👉 1922-C : Closest Citites](https://codeforces.com/contest/1922/problem/C) )**       |
+|    1400    |           Two Pointer            |  Codeforces  |           **( [👉 279-B : Books](https://codeforces.com/problemset/problem/279/B) )**           |
 |     ?      |          Greedy,String           |  Codeforces  |       **( [👉 1927-A : Make it White](https://codeforces.com/contest/1927/problem/A) )**        |
 |     ?      |  Constructive Algorithm, String  |  Codeforces  |    **( [👉 1927-B : Following the String](https://codeforces.com/contest/1927/problem/B) )**    |
 
@@ -21,11 +22,11 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 
 # 🌲 Problem Set (LeetCode)
 
-| **Rating** |   **Topic Covered**   | **Platform** |                                                                   **Problem**                                                                   |
-| :--------: | :-------------------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
-|    Easy    | Two Pointers , Sort() |   LeetCode   | **( [👉88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) )** |
-|    Easy    | Two Pointers , Array |   LeetCode   | **( [👉26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) )** |
-|    Easy    | Two Pointers , Array |   LeetCode   | **( [👉27. Remove Element](https://leetcode.com/problems/remove-element/description/?envType=study-plan-v2&envId=top-interview-150) )** |
+| **Rating** |   **Topic Covered**   | **Platform** |                                                                                    **Problem**                                                                                    |
+| :--------: | :-------------------: | :----------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|    Easy    | Two Pointers , Sort() |   LeetCode   |                  **( [👉88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) )**                  |
+|    Easy    | Two Pointers , Array  |   LeetCode   | **( [👉26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) )** |
+|    Easy    | Two Pointers , Array  |   LeetCode   |                      **( [👉27. Remove Element](https://leetcode.com/problems/remove-element/description/?envType=study-plan-v2&envId=top-interview-150) )**                      |
 
 </div>
 
