@@ -15,6 +15,7 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 |    900     |           Greedy, Math           |  Codeforces  |      **( [👉 1921-C : Sending Messages](https://codeforces.com/contest/1921/problem/C) )**      |
 |    1200    |    Math,Sorting,Combinatorics    |  Codeforces  |     **( [👉 1922-B : Forming Triangles](https://codeforces.com/contest/1922/problem/B) )**      |
 |    1200    | Number Theory, Bruteforce,Greedy |  Codeforces  |   **( [👉 1925-B : A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) )**   |
+|    1200    |               Math               |  Codeforces  | **( [👉 1352-C : K-th Not Divisible by n](https://codeforces.com/problemset/problem/1352/C) )** |
 |    1300    |   Greedy, Math, Implementation   |  Codeforces  |      **( [👉 1922-C : Closest Citites](https://codeforces.com/contest/1922/problem/C) )**       |
 |    1400    |           Two Pointer            |  Codeforces  |           **( [👉 279-B : Books](https://codeforces.com/problemset/problem/279/B) )**           |
 |     ?      |          Greedy,String           |  Codeforces  |       **( [👉 1927-A : Make it White](https://codeforces.com/contest/1927/problem/A) )**        |
