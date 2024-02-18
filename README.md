@@ -7,6 +7,7 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 | **Rating** |        **Topic Covered**         | **Platform** |                                           **Problem**                                           |
 | :--------: | :------------------------------: | :----------: | :---------------------------------------------------------------------------------------------: |
 |    800     |           Greedy, Math           |  Codeforces  |           **( [👉 1921-A : Square](https://codeforces.com/contest/1921/problem/A) )**           |
+|    800     |       Brute Force, Strings       |  Codeforces  | **( [👉 1931-A : Recovering a Small String](https://codeforces.com/contest/1931/problem/A) )**  |
 |    800     |      String, Implementation      |  Codeforces  |       **( [👉 1921-B : Arranging Cats](https://codeforces.com/contest/1921/problem/B) )**       |
 |    800     |          String, Greedy          |  Codeforces  | **( [👉 1925-A : We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) )** |
 |    800     |      String, Implementation      |  Codeforces  |      **( [👉 1922-A : Tricky Template](https://codeforces.com/contest/1922/problem/A) )**       |
