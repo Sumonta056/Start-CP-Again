@@ -12,6 +12,7 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 |    800     |          String, Greedy          |  Codeforces  | **( [👉 1925-A : We Got Everything Covered!](https://codeforces.com/contest/1925/problem/A) )** |
 |    800     |      String, Implementation      |  Codeforces  |      **( [👉 1922-A : Tricky Template](https://codeforces.com/contest/1922/problem/A) )**       |
 |    800     |       Two Pointer, Greedy        |  Codeforces  |       **( [👉 1851-B : Parity Sort](https://codeforces.com/problemset/problem/1851/B) )**       |
+|    800     |          Binary Search           |  Codeforces  |      **( [👉 1915-C: Can I Square?](https://codeforces.com/problemset/problem/1915/C) )**       |
 |    900     |           Greedy, Math           |  Codeforces  |      **( [👉 1921-C : Sending Messages](https://codeforces.com/contest/1921/problem/C) )**      |
 |    1200    |    Math,Sorting,Combinatorics    |  Codeforces  |     **( [👉 1922-B : Forming Triangles](https://codeforces.com/contest/1922/problem/B) )**      |
 |    1200    | Number Theory, Bruteforce,Greedy |  Codeforces  |   **( [👉 1925-B : A Balanced Problemset?](https://codeforces.com/contest/1925/problem/B) )**   |
