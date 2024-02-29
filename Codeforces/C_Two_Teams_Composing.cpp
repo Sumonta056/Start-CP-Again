@@ -47,42 +47,71 @@ const int N = int(1e5 + 3);
 //?  pair<long, long>;  make_pair(a, b);
 //?  sort(arr.begin(), arr.end());
 
-int binary_search(int arr[], int start, int end, int key)
-{
-    // * Time Complexity : O(log n)
-    // * Space Complexity : O(1)
-
-    while (start <= end)
-    {
-        int mid = start + (end - start) / 2;
-        if (arr[mid] == key)
-            return mid;
-        else if (arr[mid] > key)
-            end = mid - 1;
-        else
-            start = mid + 1;
-    }
-    return -1;
-}
-
 void solve()
 {
     //* Sometimes you win, sometimes you learn..." - Good Wisher
+    ll n;
+    cin >> n;
 
-    // * Binary Search : Array Must be sorted
+    vector<ll> arr(n);
+    map<ll, ll> count;
+    ll value = 0, countHighest = 0;
+    for (ll i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+        count[arr[i]]++;
+        if (count[arr[i]] > countHighest)
+        {
+            countHighest = count[arr[i]];
+            value = arr[i];
+        }
+    }
 
-    int arr[] = {3, 4, 6, 7, 9, 12, 16, 17};
-    int length = sizeof(arr) / sizeof(arr[0]);
+    if (n == 1)
+    {
+        cout << 0 << endl;
+        return;
+    }
 
-    int key;
-    cin >> key;
+    if (n == countHighest || countHighest == 1)
+    {
+        cout << 1 << endl;
+        return;
+    }
 
-    int found = binary_search(arr, 0, length - 1, key);
+    sort(arr.begin(), arr.end());
 
-    if (found != -1)
-        cout << "Founded" << endl;
+    ll counting = 0;
+    for (ll i = 0; i < n; i++)
+    {
+        if (arr[i] != value)
+        {
+            if (arr[i] != arr[i + 1])
+            {
+                counting++;
+            }
+            if (counting > countHighest)
+                break;
+        }
+    }
+
+    // cout << counting << sp << countHighest << endl;
+
+    if (countHighest < counting)
+    {
+        cout << countHighest << endl;
+        return;
+    }
+
     else
-        cout << "Not Founded" << endl;
+    {
+        if (counting + 1 < countHighest)
+            cout << counting + 1 << endl;
+        else
+            cout << counting << endl;
+    }
+
+    // cout << value << sp << countHighest;
 }
 
 int main()

@@ -63,9 +63,9 @@ int binary_search(ll temp)
         // cout << "end" << end << endl;
         // cout << "mid" << mid << endl;
         // cout << endl;
-
         if (temp == key)
             return mid;
+        // FIXME: Changed This Part from Binary Search
         else if (temp < key)
             end = mid - 1;
         else
