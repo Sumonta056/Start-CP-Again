@@ -22,6 +22,7 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 |    1400    |           Two Pointer            |  Codeforces  |           **( [👉 279-B : Books](https://codeforces.com/problemset/problem/279/B) )**           |
 |     ?      |          Greedy,String           |  Codeforces  |       **( [👉 1927-A : Make it White](https://codeforces.com/contest/1927/problem/A) )**        |
 |     ?      |  Constructive Algorithm, String  |  Codeforces  |    **( [👉 1927-B : Following the String](https://codeforces.com/contest/1927/problem/B) )**    |
+|     ?      |   Constructive Algorithm, Math   |  Codeforces  |      **( [👉 1934-A : Too Min Too Max](https://codeforces.com/contest/1934/problem/A) )**       |
 
 <hr>
 
