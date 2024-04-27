@@ -41,23 +41,48 @@ const int N = int(1e5 + 3);
 //* char a = 'A';   int num = (int) a;
 //* char a = '2';   int num = a-48;
 //* char a = '8';   int num = a - '0' ;  (  s[i]-'0' == 8 )
-//! char a1 = 'a' + a - 1; 
+//! char a1 = 'a' + a - 1;
 //?  vector<int> arr(n);
 //?  map<int, int> count; count[arr[i]]++;
 //?  pair<long, long>;  make_pair(a, b);
 //?  sort(arr.begin(), arr.end());
 
+bool checkPalindrome(int n)
+{
+    int reverse = 0;
+    int temp = n;
+    while (temp != 0)
+    {
+        reverse = (reverse * 10) + (temp % 10);
+        temp = temp / 10;
+    }
+    return (reverse == n);
+}
+
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
-  
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+
+    int n;
+    cin >> n;
+
+    for (int i = n; i > 0; i--)
+    {
+        int temp = i;
+        if (checkPalindrome(temp))
+        {
+            cout << "Last Palindrome : ";
+            cout << temp << endl;
+            break;
+        }
+    }
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)

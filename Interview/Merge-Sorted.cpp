@@ -41,7 +41,7 @@ const int N = int(1e5 + 3);
 //* char a = 'A';   int num = (int) a;
 //* char a = '2';   int num = a-48;
 //* char a = '8';   int num = a - '0' ;  (  s[i]-'0' == 8 )
-//! char a1 = 'a' + a - 1; 
+//! char a1 = 'a' + a - 1;
 //?  vector<int> arr(n);
 //?  map<int, int> count; count[arr[i]]++;
 //?  pair<long, long>;  make_pair(a, b);
@@ -49,15 +49,51 @@ const int N = int(1e5 + 3);
 
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
-  
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+    int arr1[] = {0, 1, 2, 3, 4};
+    int arr2[] = {3, 4, 6, 7, 9};
+    int n = sizeof(arr1) / sizeof(arr1[0]);
+    int m = sizeof(arr2) / sizeof(arr2[0]);
+
+    vector<int> ans;
+    int one = 0;
+    int two = 0;
+
+    while (one < n && two < m)
+    {
+        if (arr1[one] < arr2[two])
+        {
+            ans.push_back(arr1[one]);
+            one++;
+        }
+        else
+        {
+            ans.push_back(arr2[two]);
+            two++;
+        }
+    }
+    
+    for (int i = one; i < n; i++)
+    {
+        ans.push_back(arr1[i]);
+    }
+
+    for (int i = two; i < m; i++)
+    {
+        ans.push_back(arr2[i]);
+    }
+
+    for (int i = 0; i < ans.size(); i++)
+    {
+        cout << ans[i] << sp;
+    }
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)

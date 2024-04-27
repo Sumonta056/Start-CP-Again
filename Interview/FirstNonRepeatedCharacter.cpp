@@ -41,23 +41,42 @@ const int N = int(1e5 + 3);
 //* char a = 'A';   int num = (int) a;
 //* char a = '2';   int num = a-48;
 //* char a = '8';   int num = a - '0' ;  (  s[i]-'0' == 8 )
-//! char a1 = 'a' + a - 1; 
+//! char a1 = 'a' + a - 1;
 //?  vector<int> arr(n);
 //?  map<int, int> count; count[arr[i]]++;
 //?  pair<long, long>;  make_pair(a, b);
 //?  sort(arr.begin(), arr.end());
 
+int firstUniqChar(string s)
+{
+
+    vector<int> count(26, 0);
+
+    for (auto it : s)
+    {
+        count[it - 'a']++;
+    }
+
+    for (int i = 0; i < s.size(); i++)
+    {
+        if (count[s[i] - 'a'] == 1)
+            return i;
+    }
+
+    return -1;
+}
+
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
-  
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+    string s;
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)

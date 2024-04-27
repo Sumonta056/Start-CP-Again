@@ -30,7 +30,7 @@ using namespace std;
 #define mod 1000000007
 #define INF numeric_limits<ll>::max();  //! 9223372036854775807
 #define NINF numeric_limits<ll>::min(); //! --9223372036854775808
-const int N = int(1e5 + 3);
+// const int N = int(1e5 + 3);
 
 #define max3(a, b, c) max(max((a), (b)), (c))
 #define min3(a, b, c) min(min((a), (b)), (c))
@@ -41,7 +41,6 @@ const int N = int(1e5 + 3);
 //* char a = 'A';   int num = (int) a;
 //* char a = '2';   int num = a-48;
 //* char a = '8';   int num = a - '0' ;  (  s[i]-'0' == 8 )
-//! char a1 = 'a' + a - 1; 
 //?  vector<int> arr(n);
 //?  map<int, int> count; count[arr[i]]++;
 //?  pair<long, long>;  make_pair(a, b);
@@ -49,15 +48,35 @@ const int N = int(1e5 + 3);
 
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
-  
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+
+    int array[11] = {1,
+                     2,
+                     3,
+                     4,
+                     5,
+                     1,
+                     2,
+                     3,
+                     4,
+                     5,
+                     6};
+    int ans3 = 0;
+
+    for (int i = 0; i < 11; i++)
+    {
+        // XOR Operation
+        ans3 = ans3 ^ array[i];
+    }
+
+    cout << ans3 << endl;
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)
