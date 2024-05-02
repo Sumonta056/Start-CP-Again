@@ -47,3 +47,16 @@ else {
     cout << "No";
 }
 ```
+
+
+- (String) If you want to access the value with assignning : `unordered_map1[4] == NULL`
+```c++
+std::unordered_map<char, char> unordered_map1;
+std::cout << unordered_map1[4] << std::endl; // prints NULL value
+```
+
+- (Integer) If you want to access the value with assignning : `unordered_map1[4] == 0`
+```c++
+std::unordered_map<int, int> unordered_map1;
+std::cout << unordered_map1[4] << std::endl; // prints 0
+```
