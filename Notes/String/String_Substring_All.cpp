@@ -24,7 +24,7 @@ void printSubstrings(string str)
  
 int main()
 {
-    string str = "ahbgdc";
+    string str = "flower";
     printSubstrings(str);
     return 0;
     //    this code is contributed by defcdr
