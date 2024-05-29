@@ -1,0 +1,1 @@
+{"name":"Local: Palindrome","url":"e:\\CODING\\Start-CP-Intern\\Interview\\Palindrome.cpp","tests":[{"id":1716945374634,"input":"3\naaab\nabc\nabbba","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\CODING\\Start-CP-Intern\\Interview\\Palindrome.cpp","group":"local","local":true}
