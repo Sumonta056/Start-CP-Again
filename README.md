@@ -4,7 +4,7 @@ _------ **🧠 Competitive Programming Journey 🧠** ------_
 
 # 💖 Useful Resources
 
-###### ✍🏻 Must Try LeetCode + Problem Solving Questions : **([👉Click Here](hhttps://docs.google.com/spreadsheets/d/1hwR-mwallCCs55_WJ7jGIv-tWr1fKsDd-I1cTg7LBnM/edit?usp=sharing))**
+###### ✍🏻 Must Try LeetCode + Problem Solving Questions : **([👉Click Here](https://docs.google.com/spreadsheets/d/1hwR-mwallCCs55_WJ7jGIv-tWr1fKsDd-I1cTg7LBnM/edit?usp=sharing))**
 
 ###### ✍🏻 Common Problem Solving Question with Approaches : **([👉Click Here](https://sumontas-organization.gitbook.io/intership-preparation-2024/problem-solving))**
 
