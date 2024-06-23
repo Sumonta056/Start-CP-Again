@@ -41,7 +41,7 @@ const int N = int(1e5 + 3);
 //* char a = 'A';   int num = (int) a;
 //* char a = '2';   int num = a-48;
 //* char a = '8';   int num = a - '0' ;  (  s[i]-'0' == 8 )
-//! char a1 = 'a' + a - 1; 
+//! char a1 = 'a' + a - 1;
 //?  vector<int> arr(n);
 //?  map<int, int> count; count[arr[i]]++;
 //?  pair<long, long>;  make_pair(a, b);
@@ -49,14 +49,40 @@ const int N = int(1e5 + 3);
 
 void solve()
 {
-  //* Sometimes you win, sometimes you learn..." - Good Wisher
+    //* Sometimes you win, sometimes you learn..." - Good Wisher
+    ll n;
+    cin >> n;
+    vector<ll> arr(n);
+    vector<ll> sum(n);
+
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+        if (i == 0)
+            sum[i] = arr[i];
+        else
+            sum[i] = sum[i - 1] + arr[i];
+    }
+
+    ll counter = 0;
+    ll maxFinder = 0;
+    for (int i = 0; i < n; i++)
+    {
+        maxFinder = max(maxFinder, arr[i]);
+
+        if (sum[i] - maxFinder == maxFinder)
+        {
+            counter++;
+        }
+    }
+    cout << counter << endl;
 }
 
 int main()
 {
     ios_base::sync_with_stdio(0), cin.tie(0), cout.tie(0);
     srand(chrono::high_resolution_clock::now().time_since_epoch().count());
-    
+
     ll t = 1;
     cin >> t;
     while (t--)
