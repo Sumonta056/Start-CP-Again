@@ -53,154 +53,76 @@ struct Node
     Node *left;
     Node *right;
 
-    Node(int value)
+    Node(int val)
     {
-        data = value;
-        left = right = nullptr;
+        data = val;
+        left = NULL;
+        right = NULL;
     }
 };
 
 class BST
 {
+public:
     Node *root;
 
-    Node *insert(Node *node, int value)
+    BST()
     {
-        if (node == nullptr)
+        root = NULL;
+    }
+
+    Node *insert(Node *root, int val)
+    {
+        if (root == NULL)
         {
-            return new Node(value);
+            return new Node(val);
         }
 
-        if (value < node->data)
+        if (val > root->data)
         {
-            node->left = insert(node->left, value);
+            root->right = insert(root->right, val);
         }
         else
         {
-            node->right = insert(node->right, value);
+            root->left = insert(root->left, val);
         }
 
-        return node;
+        return root;
     }
 
-    void inOrder(Node *node)
+    void insert(int val)
     {
-        if (node == nullptr)
+        root = insert(root, val);
+    }
+
+    void inOrder(Node *root)
+    {
+        if (root == NULL)
         {
             return;
         }
-        inOrder(node->left);
-        cout << node->data << sp;
-        inOrder(node->right);
+        inOrder(root->left);
+        cout << root->data << sp;
+        inOrder(root->right);
     }
-
-    // Helper function to search for a value
-    Node *search(Node *node, int value)
-    {
-        if (node == nullptr || node->data == value)
-        {
-            return node;
-        }
-        if (value < node->data)
-        {
-            return search(node->left, value);
-        }
-        return search(node->right, value);
-    }
-
-    Node *kthSmallestUtil(Node *node, int &k)
-    {
-        if (node == nullptr)
-            return nullptr;
-
-        Node *left = kthSmallestUtil(node->left, k);
-
-        if (left != nullptr)
-            return left;
-
-        if (--k == 0)
-            return node;
-
-        return kthSmallestUtil(node->right, k);
-    }
-
-public:
-    BST()
-    {
-        root = nullptr;
-    }
-
-    void insert(int value)
-    {
-        root = insert(root, value);
-    }
-
-    void inorderPrint()
+    void inOrder()
     {
         inOrder(root);
-        cout << endl;
-    }
-
-    // Search for a value in the BST
-    bool search(int value)
-    {
-        Node *result = search(root, value);
-        return result != nullptr;
-    }
-
-    int kthSmallest(int k)
-    {
-        Node *res = kthSmallestUtil(root, k);
-        return (res == nullptr) ? -1 : res->data;
     }
 };
 
 void solve()
 {
     //* Sometimes you win, sometimes you learn..." - Good Wisher
+    BST b;
+    b.insert(12);
+    b.insert(5);
+    b.insert(15);
+    b.insert(3);
+    b.insert(7);
+    b.insert(13);
 
-    BST tree;
-
-    cout << "Enter the number of elements :" << endl;
-    int n;
-    cin >> n;
-
-    cout << "Enter the elements :" << endl;
-    // 10 8 21 7 27 5 4 3 -1
-    for (int i = 0; i < n; i++)
-    {
-        int x;
-        cin >> x;
-        tree.insert(x);
-    }
-
-    // Inorder Traversal : Sorted Array
-    cout << "Inorder Traversal :" << endl;
-    tree.inorderPrint();
-
-    // kth smallest element
-    cout << "Enter the kth smallest element to find :" << endl;
-    int k;
-    cin >> k;
-
-    int kthSmall = tree.kthSmallest(k);
-    if (kthSmall == -1)
-        cout << "The tree has less than " << k << " elements." << endl;
-    else
-        cout << "The " << k << "th smallest element is " << kthSmall << endl;
-
-    // Search for a value
-    cout << "Enter value to search: ";
-    int value;
-    cin >> value;
-    if (tree.search(value))
-    {
-        cout << value << " is found in the BST." << endl;
-    }
-    else
-    {
-        cout << value << " is not found in the BST." << endl;
-    }
+    b.inOrder();
 }
 
 int main()

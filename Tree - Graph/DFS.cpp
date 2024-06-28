@@ -47,64 +47,52 @@ const int N = int(1e5 + 3);
 //?  pair<long, long>;  make_pair(a, b);
 //?  sort(arr.begin(), arr.end());
 
-void BFS(vector<vector<int>> &adj, int source)
+void dfsHelper(int node, vector<int> adj[], vector<bool> &visited, vector<int> &ans)
 {
-    vector<bool> visited(adj.size(), false);
-    queue<int> q;
+    visited[node] = true;
+    ans.push_back(node);
 
-    visited[source] = true;
-    q.push(source);
-    q.push(-1); // Marker for the end of a level
-
-    int levelSum = 0; // Initialize sum of the current level
-
-    while (!q.empty())
+    for (auto it : adj[node])
     {
-        int top = q.front();
-        q.pop();
-
-        if (top == -1)
+        if (!visited[it])
         {
-            cout << "Sum of level: " << levelSum << endl;
-            levelSum = 0; // Reset sum for the next level
-
-            if (!q.empty())
-            {
-                q.push(-1); // Marker for the next level
-            }
-        }
-        else
-        {
-            levelSum += top; // Assuming the node value is the index
-
-            cout << top << endl;
-
-            for (auto i : adj[top])
-            {
-                if (!visited[i])
-                {
-                    visited[i] = true;
-                    q.push(i);
-                }
-            }
+            dfsHelper(it, adj, visited, ans);
         }
     }
 }
+
+void DFS(vector<int> adj[], int size)
+{
+    vector<bool> visited(size, false);
+    vector<int> ans;
+
+    for (int i = 0; i < size; i++)
+    {
+        if (!visited[i])
+        {
+            dfsHelper(i, adj, visited, ans);
+        }
+    }
+
+    for (auto it : ans)
+    {
+        cout << it << sp;
+    }
+}
+
 void solve()
 {
     //* Sometimes you win, sometimes you learn..." - Good Wisher
+    int n = 5;          // Number of nodes in the graph
+    vector<int> adj[n]; // Adjacency list representation of the graph
 
-    int n = 7;                  // Assuming there are 5 nodes in the graph
-    vector<vector<int>> adj(n); // Initialize with size n
-
+    // Add edges to the graph
     adj[0].push_back(1);
     adj[0].push_back(2);
     adj[1].push_back(3);
-    adj[1].push_back(4);
-    adj[2].push_back(5);
-    adj[2].push_back(6);
+    adj[2].push_back(4);
 
-    BFS(adj, 0);
+    DFS(adj, n);
 }
 
 int main()
